@@ -1,0 +1,68 @@
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+}
+.parent {
+  background-color: white;
+  border: 3px solid black;
+  width: auto;
+  height: 400px;
+}
+.example-1 {
+  display: flex;
+  /* flex-direction: row; */
+}
+.example-2 {
+  display: flex;
+  flex-direction: column;
+}
+.example-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.example-4 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.example-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.example-6 {
+  display: flex;
+  justify-content: space-between;
+}
+.example-7 {
+  display: flex;
+  justify-content: space-around;
+}
+.example-8 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.example-9 {
+  display: flex;
+  justify-content: center;
+}
+.example-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.example-11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.example-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
